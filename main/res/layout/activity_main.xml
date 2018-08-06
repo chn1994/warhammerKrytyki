@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/tvWeapon"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="@string/weapon" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+        <ImageButton
+            android:id="@+id/ibSword"
+            android:layout_weight="1"
+            android:layout_height="150sp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/sword" />
+
+        <ImageButton
+            android:id="@+id/ibHammer"
+            android:layout_weight="1"
+            android:layout_height="150sp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/hammer" />
+
+        <ImageButton
+            android:id="@+id/ibBow"
+            android:layout_weight="1"
+            android:layout_height="150sp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/bow" />
+
+        <ImageButton
+            android:id="@+id/ibGun"
+            android:layout_weight="1"
+            android:layout_height="150sp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/gun" />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    <TextView
+        android:id="@+id/tvPlace"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/place" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageButton
+            android:id="@+id/ibArm"
+            android:layout_weight="1.2"
+            android:layout_height="150sp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/arm" />
+
+        <ImageButton
+            android:id="@+id/ibHead"
+            android:layout_weight="1.2"
+            android:layout_height="150sp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/head" />
+
+        <ImageButton
+            android:id="@+id/ibBody"
+            android:layout_weight="0.8"
+            android:layout_height="150sp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/body" />
+
+        <ImageButton
+            android:id="@+id/ibLeg"
+            android:layout_weight="1.2"
+            android:layout_height="150sp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/leg" />
+
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+        <TextView
+            android:id="@+id/tvPoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="@string/points"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="@string/result" />
+
+        <EditText
+            android:id="@+id/etResult"
+            android:layout_weight="1"
+            android:maxLength="3"
+            android:ems="4"
+            android:inputType="numberSigned" />
+
+        <TextView
+            android:id="@+id/tvHP"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="@string/hp" />
+
+        <EditText
+            android:id="@+id/etHP"
+            android:layout_weight="1"
+            android:maxLength="2"
+            android:ems="4"
+            android:inputType="numberSigned" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btnAccept"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnAccept" />
+    </TableRow>
+
+</TableLayout>

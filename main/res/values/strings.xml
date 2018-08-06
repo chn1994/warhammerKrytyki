@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Krytyki</string>
+    <string name="place">Miejsce</string>
+    <string name="weapon">Broń atakująca</string>
+    <string name="desc">Opis</string>
+    <string name="addon">Dodatkowy opis</string>
+    <string name="result">Wynik rzutu</string>
+    <string name="hp">-Życie</string>
+    <string name="code">Kod krytyka</string>
+    <string name="points">Punkty krytyka</string>
+    <string name="btnAccept">Podaj opis</string>
+	<!--
+    Removed -- Copyright Issues
+	-->
+    <string-array name="weapon">
+        <item>Sieczne</item>
+        <item>Obuchowe</item>
+        <item>Bełty i strzały</item>
+        <item>Palna</item>
+    </string-array>
+    <string-array name="place">
+        <item>Głowa</item>
+        <item>Ręka</item>
+        <item>Korpus</item>
+        <item>Noga</item>
+    </string-array>
+    <string name="title_activity_splash">SplashActivity</string>
+</resources>
